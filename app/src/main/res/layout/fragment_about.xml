@@ -1,0 +1,207 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a3a3a"
+    tools:context="fragments.aboutFragment"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:background="@drawable/message_bg"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/why_bncet"
+                    android:fontFamily="@font/bold"
+                    android:textColor="#454545"
+                    android:textAlignment="center"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="#757575"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20sp"
+                    android:contentDescription="TODO"
+                    android:saveEnabled="true"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bncetcampus"
+                    tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#454545"
+                    android:text="@string/bncet_is_a_consortium_of_leading"
+                    android:fontFamily="@font/italic"
+                    android:textAlignment="textStart"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ECECEC"
+                android:padding="20sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/our_awards"
+                    android:textColor="#454545"
+                    android:textSize="18sp"
+                    android:fontFamily="@font/bold"
+                    android:textAlignment="center"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20sp"
+                    android:src="@drawable/award1"
+                    android:scaleType="centerCrop"
+                    android:saveEnabled="true"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:text="@string/excellence_in_education_award_group_in_presence_of_minister_urban_development_govt_of_u_p"
+                    android:textAlignment="center"
+                    android:textColor="#454545"
+                    tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20sp"
+                    android:src="@drawable/award2"
+                    android:scaleType="centerCrop"
+                    android:saveEnabled="true"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/top_performing_national_education_award"
+                    android:textColor="#454545"
+                    android:fontFamily="@font/bold"
+                    android:textAlignment="center"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="20sp"
+                    android:src="@drawable/award3"
+                    android:scaleType="centerCrop"
+                    android:saveEnabled="true"
+                    android:longClickable="true"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/excellence_in_education_award_2020_by_the_times_group"
+                    android:textColor="#454545"
+                    android:fontFamily="@font/bold"
+                    android:textAlignment="center"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:background="@drawable/message_bg"
+                tools:ignore="UselessParent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/vision_mission"
+                    android:fontFamily="@font/bold"
+                    android:textColor="#454545"
+                    android:textSize="18sp"
+                    android:textAlignment="center"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
+                    android:background="#757575"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#454545"
+                    android:text="@string/our_mission"
+                    android:fontFamily="@font/bold"
+                    android:textAlignment="textStart"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#454545"
+                    android:text="@string/to_produce_innovativ"
+                    android:fontFamily="@font/italic"
+                    android:textAlignment="textStart"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#454545"
+                    android:text="@string/our_vision"
+                    android:fontFamily="@font/bold"
+                    android:textAlignment="textStart"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#454545"
+                    android:text="@string/strive_to_develop_as_an_institution_of_excellence_in_professional_and_technical_education_that_enables_youth_to_be_innovative_with_inherent_morality_and_skills_to_be_a_valuable_asset_for_society_and_nation"
+                    android:fontFamily="@font/italic"
+                    android:textAlignment="textStart"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

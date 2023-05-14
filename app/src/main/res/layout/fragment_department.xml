@@ -1,0 +1,953 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3a3a3a"
+    android:orientation="vertical"
+    tools:context="fragments.department"
+    tools:ignore="ScrollViewCount,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scroll_View"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp"
+                android:id="@+id/cse_view2"
+                android:background="@drawable/coding5"
+                tools:ignore="UselessParent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="8dp">
+
+                    <TextView
+                        android:id="@+id/cse_it_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:text="CSE/IT"
+                        android:textColor="#ECECEC"
+                        tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/me_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:text="ME"
+                        android:textColor="#ECECEC"
+                        tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/ee_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:text="EE/EC"
+                        android:textColor="#ECECEC"
+                        tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/ce_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:text="CE"
+                        android:textColor="#ECECEC"
+                        tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+                    <TextView
+                        android:id="@+id/mba_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/bold"
+                        android:gravity="center"
+                        android:textSize="12sp"
+                        android:text="MBA"
+                        android:textColor="#ECECEC"
+                        tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="bottom"
+                    android:layout_marginTop="40dp"
+                    tools:ignore="UselessParent">
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bold"
+                        android:text="@string/computer_science_and_information_technology"
+                        android:textColor="#E6E6E6"
+                        android:textAlignment="textStart"
+                        android:textSize="20sp" />
+                    <TextView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/italic"
+                        android:text="@string/breaking_barriers_with_cutting_edge_technology_and_creativity"
+                        android:textColor="#E6E6E6"
+                        android:layout_marginBottom="30dp"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20sp"
+                android:paddingTop="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="40sp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="@string/importance_of_computer_science_it_in_the_modern_world"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="@string/computer_science_and_information_technology_it_have_become_integral_parts_of_modern_society_transforming_the_way_we_live_work_and_communicate_from_smartphones_and_social_media_to_self_driving_cars_and_artificial_intelligence_cse_and_it_have_revolutionized_almost_every_aspect_of_our_lives"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/csit"
+                    tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="In addition to their practical applications, CSE and IT are also shaping the way we think about the world around us. They are enabling us to collect and analyze vast amounts of data, unlocking new insights into human behavior and the natural world. They are also fostering collaboration and communication across borders and cultures, helping us to build a more connected and inclusive global community.\n\nAs technology continues to evolve and transform, the importance of CSE and IT is only going to grow. Whether you're interested in software development, cybersecurity, data analytics, or any other aspect of CSE and IT, there has never been a better time to pursue a career in this exciting and dynamic field."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message_bg"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="The Future of Computer Science and IT: AI/ML"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Artificial Intelligence (AI) and Machine Learning (ML) have emerged as two of the most exciting and rapidly advancing fields in Computer Science and Information Technology. With applications ranging from self-driving cars to virtual assistants, these technologies are transforming the way we live and work."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ai"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="AI and ML are enabling us to build intelligent machines that can learn from experience, recognize patterns, and make decisions. They are also helping us to automate repetitive tasks and streamline complex processes, freeing up time and resources for more creative and strategic work.
+\n\nAs the demand for AI and ML continues to grow, so too does the need for skilled professionals who can design, develop, and deploy these technologies effectively. Whether you're interested in developing AI-powered applications or using ML to analyze large datasets, there are countless opportunities to make a meaningful impact in this exciting and dynamic field.
+\n\nAt the same time, there are also important ethical and societal implications to consider as AI and ML become more pervasive. As we develop increasingly advanced technologies, we must also ensure that they are used responsibly and in the service of human values and goals.
+\n\nThe future of Computer Science and IT is being shaped by AI and ML, and the possibilities are truly limitless. Whether you're a seasoned professional or just starting out in your career, there has never been a better time to get involved in this exciting and rapidly evolving field."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/bold"
+                        android:text="@string/cse_department"
+                        android:textAlignment="center"
+                        android:textColor="#272727"
+                        android:layout_gravity="center"
+                        android:textSize="15sp"
+                        />
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:id="@+id/recyclerView_of_faculty"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:id="@+id/me_view2"
+                android:gravity="bottom"
+                android:background="@drawable/me1"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:text="Mechanical Engineering"
+                    android:textColor="#E6E6E6"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/italic"
+                    android:text="From Design to Reality: The Fascinating World of Mechanical Engineering"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20sp"
+                android:paddingTop="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="40sp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="The Art and Science of Mechanical Engineering: Innovating for a Better World"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text=" Mechanical engineering is an essential field that encompasses the design, development, and manufacturing of a wide range of machines and systems that make our lives easier. From automobiles and aircraft to robots and medical devices, mechanical engineers play a critical role in driving innovation and improving efficiency in various industries.
+\n\nThey use their expertise in mechanics, materials science, thermodynamics, and other fields to design and build machines that can perform complex tasks, withstand extreme conditions, and operate with precision and accuracy. They also collaborate with other professionals, such as electrical engineers, computer scientists, and industrial designers, to create integrated systems that meet specific needs and requirements."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/me2"
+                    tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="In addition to their technical skills, mechanical engineers must also possess strong problem-solving abilities, creativity, and communication skills to effectively communicate their ideas and designs. They must also be able to adapt to new technologies and advancements in their field to stay up-to-date and relevant.
+\n\nOverall, mechanical engineering is a dynamic and exciting field that continues to drive innovation and shape the future of our world."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message_bg"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="The Role of Mechanical Engineers in Solving Real-World Challenges"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="One such challenge is developing sustainable energy solutions to reduce our reliance on fossil fuels and combat climate change. Mechanical engineers work on designing and improving renewable energy systems, such as wind turbines and solar panels, that generate clean and efficient energy. They also work on improving energy storage systems to make them more efficient and cost-effective."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/me3"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Mechanical engineers also work on developing medical devices and equipment that can save lives and improve patient outcomes. They design and develop devices such as artificial joints, prosthetic limbs, and pacemakers, and also work on improving imaging technologies and diagnostic tools.
+\n\nOverall, mechanical engineers are essential in solving real-world challenges and creating innovative solutions that improve our lives. Their work impacts a wide range of industries and has the potential to make a significant difference in the world."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mechanical Department"
+                    android:textColor="#272727"
+                    android:fontFamily="@font/bold"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:id="@+id/recyclerView_of_faculty_me"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:gravity="bottom"
+                android:id="@+id/ee_View2"
+                android:background="@drawable/ee1"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:text="Electrical &amp; Electronic Engineering"
+                    android:textColor="#E6E6E6"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/italic"
+                    android:text="Powering the Future: Electrical and Electronics Engineering Innovations"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20sp"
+                android:paddingTop="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="40sp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="The Synergy of Electrical and Electronics Engineering: Advancements and Applications"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Electrical and electronics engineering are two closely related fields that deal with the study, design, and development of electrical systems and electronic devices. These fields have a significant impact on our daily lives, from powering our homes and cities to enabling communication and entertainment.
+\n\nElectrical engineering focuses on the generation, distribution, and control of electrical power. This includes the design and development of power systems, such as power plants and renewable energy sources, as well as electrical components, such as transformers and motors. Electrical engineers also work on developing new technologies, such as smart grids and energy storage systems, to improve the efficiency and sustainability of our power systems."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ee2"
+                    tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Electronics engineering, on the other hand, focuses on the design and development of electronic devices and systems, such as computers, smartphones, and televisions. Electronics engineers work on designing circuits and components, such as microprocessors and sensors, that can process and transmit information. They also work on developing new technologies, such as artificial intelligence and the internet of things, that can revolutionize the way we live and work.
+\n\nThe synergy of electrical and electronics engineering is essential in creating innovative solutions that improve our lives. For example, the development of electric vehicles relies on both electrical and electronics engineering, as it requires efficient and sustainable power systems as well as advanced electronic control systems. Similarly, the development of smart homes and cities requires both fields to work together to create efficient and intelligent power and communication systems.
+\n\nOverall, electrical and electronics engineering are essential fields that play a crucial role in shaping the future of our world. Their advancements and applications have the potential to make a significant impact on our daily lives and the world around us."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message_bg"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="From Theory to Application: The Exciting World of Electrical and Electronics Engineering"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Electrical and electronics engineering are dynamic fields that deal with the study, design, and development of electrical systems and electronic devices. These fields have a significant impact on our daily lives, from powering our homes and cities to enabling communication and entertainment."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ee3"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Electrical engineering focuses on the generation, distribution, and control of electrical power. This includes the design and development of power systems, such as power plants and renewable energy sources, as well as electrical components, such as transformers and motors. Electrical engineers also work on developing new technologies, such as electric vehicles and energy storage systems, that can improve the efficiency and sustainability of our power systems.
+\n\nElectronics engineering, on the other hand, focuses on the design and development of electronic devices and systems, such as computers, smartphones, and televisions. Electronics engineers work on designing circuits and components, such as microprocessors and sensors, that can process and transmit information. They also work on developing new technologies, such as virtual reality and artificial intelligence, that can revolutionize the way we interact with technology.
+\n\nOverall, electrical and electronics engineering are exciting and dynamic fields that have a significant impact on our daily lives. From improving the efficiency and sustainability of our power systems to creating new technologies that enhance our daily experiences, these fields continue to drive innovation and shape the future of our world."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Electrical &amp; Electronic Department"
+                    android:textColor="#272727"
+                    android:fontFamily="@font/bold"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:id="@+id/recyclerView_of_faculty_ee"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:gravity="bottom"
+                android:id="@+id/ce_view2"
+                android:background="@drawable/ce1"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:text="Civil Engineering"
+                    android:textColor="#E6E6E6"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/italic"
+                    android:text="Building the Future: Civil Engineering Innovations and Infrastructure"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20sp"
+                android:paddingTop="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="40sp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="The Evolution of Civil Engineering: From Ancient Structures to Modern Infrastructure"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Civil engineering is a field that deals with the design, construction, and maintenance of infrastructure, such as buildings, roads, bridges, and water systems. The history of civil engineering can be traced back to ancient times, where engineers built impressive structures, such as the Great Wall of China and the Roman aqueducts, using simple tools and techniques.
+\n\nOver time, civil engineering has evolved, and engineers now use sophisticated tools and techniques to design and build complex structures and infrastructure systems. Civil engineers work on a wide range of projects, from designing skyscrapers to constructing transportation networks and water treatment plants."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/ce2"
+                    android:scaleType="fitCenter"
+                    tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="One of the most significant challenges facing civil engineers today is creating sustainable and resilient infrastructure systems that can withstand natural disasters and the impacts of climate change. Civil engineers are working on developing new technologies and techniques, such as green infrastructure and sustainable building materials, to make our infrastructure systems more sustainable and resilient.
+\n\nCivil engineering also plays a critical role in shaping our communities and cities. Engineers work on designing and constructing buildings and transportation systems that are safe, accessible, and efficient. They also work on developing infrastructure systems, such as water treatment plants and wastewater management systems, that protect public health and the environment.
+\n\nOverall, civil engineering is a field that has a significant impact on our daily lives and the world around us. From ancient structures to modern infrastructure systems, civil engineers have been instrumental in shaping the built environment and improving the quality of life for people around the world."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message_bg"
+                android:orientation="vertical"
+                android:paddingStart="20sp"
+                android:paddingTop="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="20sp"
+                tools:ignore="RtlSymmetry">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text=" The Intersection of Design and Functionality: The Exciting World of Civil Engineering"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Civil engineering is a field that combines creativity and technical expertise to design and build infrastructure systems that meet the needs of society. Civil engineers work on a wide range of projects, from designing buildings and bridges to constructing transportation networks and water systems."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/ce3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="One of the key principles of civil engineering is the intersection of design and functionality. Engineers work to create infrastructure systems that are not only aesthetically pleasing but also functional and efficient. They consider factors such as safety, sustainability, and accessibility to ensure that their designs meet the needs of the communities they serve.
+\n\nCivil engineers also play a critical role in addressing the challenges facing our society, such as climate change and urbanization. They work on developing sustainable infrastructure systems, such as green roofs and renewable energy systems, that can reduce the environmental impact of our built environment. They also work on designing and constructing transportation systems that can accommodate the growing population and reduce congestion.
+\n\nThe exciting world of civil engineering involves both creativity and technical expertise. Engineers use their knowledge of mathematics, physics, and computer science to design and develop innovative solutions to complex problems. They also collaborate with other professionals, such as architects and urban planners, to create integrated systems that meet specific needs and requirements.
+\n\nOverall, civil engineering is a field that is constantly evolving and shaping the world around us. From designing iconic structures to developing sustainable infrastructure systems, civil engineers continue to push the boundaries of what is possible and improve the quality of life for people around the world."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Civil Department"
+                    android:textColor="#272727"
+                    android:fontFamily="@font/bold"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:id="@+id/recyclerView_of_faculty_ce"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:orientation="vertical"
+                android:padding="20sp"
+                android:gravity="bottom"
+                android:id="@+id/mba_view2"
+                android:background="@drawable/mba1"
+                tools:ignore="UselessParent">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:text="Master of Business Administration"
+                    android:textColor="#E6E6E6"
+                    android:textAlignment="textStart"
+                    android:textSize="20sp"
+                    tools:ignore="HardcodedText" />
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/italic"
+                    android:text="Unlocking Your Business Potential: Pursuing an MBA Degree"
+                    android:textColor="#E6E6E6"
+                    android:layout_marginBottom="30dp"
+                    android:textSize="15sp"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20sp"
+                android:paddingTop="20sp"
+                android:paddingEnd="20sp"
+                android:paddingBottom="40sp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="The Power of an MBA: Accelerating Your Business Career"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TooManyViews,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Pursuing a Master of Business Administration (MBA) degree is a powerful way to accelerate your business career. An MBA program provides students with a comprehensive understanding of business principles, as well as practical skills and experience that can be applied in a variety of industries and roles.
+\n\nOne of the key benefits of an MBA degree is the opportunity to develop a strong professional network. MBA programs bring together students from diverse backgrounds and industries, providing a rich environment for networking and collaboration. Students also have access to experienced faculty members and industry experts, who can provide valuable insights and guidance throughout their career."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TooManyViews,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mba2"
+                    android:scaleType="fitCenter"
+                    tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,TooManyViews" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="In addition to networking opportunities, an MBA degree also provides students with a wide range of career paths. Graduates can pursue careers in finance, marketing, consulting, entrepreneurship, and many other fields. An MBA degree also prepares students for leadership roles, equipping them with the skills and knowledge needed to manage teams and drive business growth.
+\n\nAnother benefit of an MBA degree is the potential for higher earning potential. Graduates with an MBA degree typically earn higher salaries than those without an MBA, and many companies offer salary premiums and other incentives to attract and retain MBA graduates.
+\n\nOverall, pursuing an MBA degree can be a powerful way to accelerate your business career and unlock new opportunities. Whether you are looking to advance your current career or transition to a new field, an MBA degree can provide the skills, knowledge, and network you need to achieve your goals."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TooManyViews,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/message_bg"
+                android:paddingStart="20sp"
+                android:paddingEnd="20sp"
+                android:paddingTop="20sp"
+                android:paddingBottom="20sp"
+                android:orientation="vertical"
+                tools:ignore="RtlSymmetry">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/semibolditalic"
+                    android:text="Mastering the Art of Business: Why Pursuing an MBA is Worth the Investment"
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="Pursuing a Master of Business Administration (MBA) degree is a significant investment of time and money, but for many professionals, it is well worth it. An MBA program provides students with a broad understanding of business principles and a deeper understanding of their chosen area of specialization."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/mba3"
+                    android:contentDescription="@string/todo" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/light"
+                    android:text="One of the key benefits of an MBA degree is the exposure to a diverse range of business concepts and ideas. MBA programs cover a wide range of subjects, including finance, marketing, operations, and management. This comprehensive education provides students with a holistic understanding of how businesses operate and how to address the challenges that arise in the modern business world.
+\n\nAn MBA degree can also provide students with practical experience and skills that are highly valued by employers. Many MBA programs offer internships, consulting projects, and other experiential learning opportunities that allow students to apply their knowledge to real-world problems. Students also develop critical thinking, problem-solving, and leadership skills that are essential for success in any business role.
+\n\nAnother benefit of an MBA degree is the potential for career advancement. Graduates of MBA programs are highly sought after by employers and can expect to earn higher salaries and be considered for more senior-level positions. An MBA degree also provides a solid foundation for entrepreneurship, as students learn about the key principles of starting and running a business.
+\n\nOverall, pursuing an MBA degree can be a worthwhile investment for professionals looking to master the art of business. Whether you are looking to advance your career, start your own business, or gain a deeper understanding of business principles, an MBA degree can provide the knowledge, skills, and experience you need to succeed."
+                    android:textAlignment="textStart"
+                    android:textColor="#404040"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    tools:ignore="HardcodedText,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TooManyViews,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:background="@drawable/placement_bg"
+                android:orientation="vertical"
+                tools:ignore="TooManyViews">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Master of Business Administration"
+                    android:textColor="#272727"
+                    android:fontFamily="@font/bold"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="10dp"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20sp"
+                    android:id="@+id/recyclerView_of_faculty_mba"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

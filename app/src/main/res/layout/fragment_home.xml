@@ -1,0 +1,511 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#3a3a3a"
+    tools:context="fragments.home">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:paddingStart="20sp"
+            android:paddingTop="20sp"
+            android:paddingEnd="20sp"
+            android:background="@drawable/features2"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/unlock_campus_life_s_best_kept_secrets"
+                android:textSize="20sp"
+                android:layout_marginTop="60dp"
+                android:textColor="#C3C3C3"
+                android:gravity="bottom"
+                android:fontFamily="@font/regular"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="@string/discover_hidden_gems_and_stay_in_the_loop_with_campus_live"
+                android:textSize="15sp"
+                android:textColor="#C3C3C3"
+                android:fontFamily="@font/regular"
+                android:layout_marginTop="5dp"
+                android:gravity="bottom"
+                android:textStyle="bold"
+                />
+
+            <Button
+                android:id="@+id/know_more"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#D1D1D1"
+                android:drawableEnd="@drawable/ic_baseline_arrow_right_24"
+                android:padding="0dp"
+                android:fontFamily="@font/regular"
+                android:paddingStart="10dp"
+                android:text="@string/know_more_about_college"
+                android:textAlignment="textStart"
+                android:textColor="#3E3E3E"
+                android:textSize="10sp"
+                android:textStyle="bold"
+                tools:ignore="RtlSymmetry,SmallSp,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="20sp"
+            android:paddingTop="20sp"
+            android:paddingEnd="20sp"
+            android:background="@drawable/image_details_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/semibolditalic"
+                android:text="@string/analyst_recognitions"
+                android:textAlignment="textStart"
+                android:textColor="#EDEDED"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:text="@string/bncet_receives_top_performing_college_award_from_abp_news"
+                android:textAlignment="textStart"
+                android:textColor="#EDEDED"
+                android:layout_marginTop="20sp"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:text="@string/we_are_proud_to_announce_that_bncet_has_been_recognized_as_a_top_performing_college_by_abp_news_among_top_colleges_of_pan_india_this_recognition_is_a_testament_to_the_hard_work_and_dedication_of_our_faculty_staff_and_students_in_achieving_academic_excellence"
+                android:textAlignment="textStart"
+                android:textColor="#EDEDED"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/white"
+                android:background="#F1F1F1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:text="@string/bncet_honored_with_excellence_in_education_award"
+                android:textAlignment="textStart"
+                android:textColor="#EDEDED"
+                android:layout_marginTop="10sp"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/light"
+                android:text="@string/we_are_delighted_to_share_that_bncet_has_been_honored_with_the_excellence_in_education_award_presented_by_the_minister_of_urban_development_government_of_uttar_pradesh_our_commitment_to_providing_high_quality_education_and_preparing_our_students_for_successful_careers_has_been_recognized_by_the_government_and_our_peers_in_the_education_industry"
+                android:textAlignment="textStart"
+                android:textColor="#EDEDED"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/aestronout"
+                tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+        </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="20sp"
+        android:paddingTop="20sp"
+        android:paddingEnd="20sp"
+        android:background="@drawable/placement_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/semibolditalic"
+            android:text="@string/companies_visiting_bncet_campus"
+            android:textAlignment="textStart"
+            android:textColor="#404040"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/light"
+            android:text="@string/bncet_college_is_proud_to_host_some_of_the_leading_companies_from_diverse_industries_offering_our_students_exciting_opportunities_for_internships_and_placements_our_campus_has_welcomed_companies_such_as_company_1_company_2_company_3_company_4_and_many_more_these_companies_are_known_for_their_innovative_solutions_and_groundbreaking_products_and_have_a_strong_reputation_in_their_respective_industries_stay_tuned_for_updates_on_upcoming_campus_recruitment_drives_and_job_opportunities_from_these_industry_leaders"
+            android:textAlignment="textStart"
+            android:textColor="#404040"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/bolditalic"
+            android:text="@string/recruiters"
+            android:textAlignment="textStart"
+            android:textColor="#404040"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10dp"
+            android:textIsSelectable="true"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:src="@drawable/byjuslogo"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/bajaj"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:src="@drawable/hcl"
+                tools:ignore="ContentDescription" />
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/infosys"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="start"
+                android:src="@drawable/paytm"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginBottom="50dp"
+                android:src="@drawable/hp"
+                tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#fff">
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/sliderLayout"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="20"
+                app:iss_period="2000"
+                android:isScrollContainer="true"
+                app:iss_delay="30"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/message_bg"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:paddingTop="20sp"
+            android:orientation="vertical"
+            tools:ignore="RtlSymmetry">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:text="@string/our_purpose"
+                android:textAlignment="center"
+                android:textColor="#232323"
+                android:gravity="center"
+                android:textIsSelectable="true"
+                android:textSize="18sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/regular"
+                android:text="@string/the_purpose_of_campus_live_is_to_provide_the_latest_news_updates_and_events_related_to_the_bncet_college_campus_community"
+                android:textAlignment="textStart"
+                android:layout_marginTop="20sp"
+                android:textColor="#232323"
+                android:textIsSelectable="true"
+                android:textSize="15sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="20sp"
+                android:layout_marginBottom="50sp"
+                android:paddingBottom="0sp"
+                android:background="@drawable/card_bg">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="20sp"
+                    android:src="@drawable/qoute"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="20sp"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/welcome_to_our_institution_and_thank_you_for_your_interest_in_joining_us_our_aim_is_to_help_you_build_the_foundation_of_your_successful_career_and_we_are_honored_to_be_a_part_of_that_journey_modern_education_is_all_about_preparing_for_the_future_and_we_are_committed_to_ensuring_that_you_receive_the_best_educational_standards_that_are_in_vogue_all_over_the_world_we_understand_that_you_will_be_competing_with_the_best_among_the_best_and_we_want_to_help_you_succeed_therefore_we_encourage_you_to_make_the_most_of_your_time_here_every_minute_counts_and_we_want_to_see_you_make_progress_with_every_step_we_will_do_all_in_our_capacity_to_bring_out_the_best_in_you_but_we_also_need_your_cooperation_to_establish_the_highest_standards_of_academic_excellence_once_again_welcome_to_our_institution_and_we_look_forward_to_greeting_you"
+                    android:textAlignment="textStart"
+                    android:layout_marginTop="20sp"
+                    android:textColor="#000000"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="20sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:layout_marginTop="20sp"
+                    android:text="@string/shri_mahesh_singh_patel"
+                    android:textAlignment="textStart"
+                    android:textColor="#232323"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/regular"
+                    android:layout_marginTop="0sp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:text="@string/hon_ble_chairman_bncet_group"
+                    android:textAlignment="textStart"
+                    android:textColor="#232323"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:layout_marginBottom="0dp"
+                    android:src="@drawable/chairman"
+                    tools:ignore="ContentDescription" />
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#BCBCBC"
+            android:padding="2dp"
+            android:outlineAmbientShadowColor="@color/white"
+            tools:targetApi="p">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="20sp"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:background="@drawable/manager_bg"
+                android:layout_marginEnd="20sp"
+                android:layout_marginStart="10sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center"
+                    android:text="@string/a_message_from_dg_sir"
+                    android:textAlignment="center"
+                    android:textColor="#232323"
+                    android:textIsSelectable="true"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/bncet_is_aicte_and_ministry_of_mhrd_approved_and_affiliated_to_dr_a_p_j_abdul_kalam_technical_university_we_provide_a_ragging_free_campus_and_personal_counseling_ranked_44th_in_nirf_ranking_by_mhrd_we_have_the_best_placements_in_the_last_three_years_life_at_bncet_includes_various_activities_like_seminars_workshops_tours_cultural_events_sports_and_dramatics_for_overall_student_development_our_focus_is_on_quality_infrastructure_world_class_facilities_and_innovative_teaching_for_education_growth"
+                    android:textAlignment="textStart"
+                    android:textColor="#272727"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:layout_marginBottom="20sp"
+                    android:fontFamily="@font/bolditalic"
+                    android:text="@string/prof_dr_raghuvir_kumar_b_e_m_e_ph_d_hon_ble_director_general_bncet_group"
+                    android:textAlignment="textEnd"
+                    android:textColor="#272727"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck,DuplicateSpeakableTextCheck,DuplicateSpeakableTextCheck,TextContrastCheck,TextContrastCheck" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:background="@drawable/manager_bg"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_marginStart="20sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_marginEnd="20sp"
+                    android:fontFamily="@font/regular"
+                    android:text="@string/we_prioritize_skill_development_in_engineering_to_promote_the_competence_of_our_students_leading_to_innovation_and_productivity_our_highly_qualified_faculty_provides_a_quality_technical_education_and_academic_counseling_preparing_our_students_to_become_global_citizens_with_a_focus_on_moral_values_we_encourage_overall_personality_development_through_extracurricular_activities_sports_clubs_and_online_technical_courses_education_is_the_key_to_fulfilling_our_hopes_and_dreams_and_benefiting_our_nation"
+                    android:textAlignment="textStart"
+                    android:textColor="#272727"
+                    android:textIsSelectable="true"
+                    android:textSize="15sp"
+                    tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    tools:ignore="UseCompoundDrawables">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/director"
+                        tools:ignore="ContentDescription" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/bolditalic"
+                        android:text="@string/prof_dr_ajay_kumar_sachan_hon_ble_director_bncet_group"
+                        android:textAlignment="textEnd"
+                        android:layout_marginTop="20sp"
+                        android:textColor="#272727"
+                        android:textIsSelectable="true"
+                        android:textSize="15sp"
+                        android:layout_marginStart="20sp"
+                        android:layout_marginEnd="20sp"
+                        tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

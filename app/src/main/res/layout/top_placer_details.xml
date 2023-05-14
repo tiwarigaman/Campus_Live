@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="230dp"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="6dp"
+    android:backgroundTint="#FFFFFF"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/top_rec_image"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qoute"
+            tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+        <TextView
+            android:id="@+id/top_rec_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/bold"
+            android:text="@string/none"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="center"
+            android:textColor="#272727"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/top_rec_pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/italic"
+            android:text="@string/none"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="center"
+            android:textColor="#272727"
+            android:textSize="13sp" />
+        <ImageView
+            android:id="@+id/top_rec_image_com"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/qoute"
+            android:layout_marginBottom="5dp"
+            tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck" />
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

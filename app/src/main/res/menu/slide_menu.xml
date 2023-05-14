@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:icon="@drawable/ic_baseline_feed_24"
+        android:title="Feed"
+        android:id="@+id/feed_"
+        tools:ignore="HardcodedText" />
+    <item
+        android:icon="@drawable/discover_icon"
+        android:title="@string/discover"
+        android:id="@+id/home_"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_event_24"
+        android:title="@string/events"
+        android:id="@+id/events_"/>
+
+    <item android:id="@+id/upcoming_events"
+        android:title="@string/upcoming_events"
+        android:icon="@drawable/ic_baseline_event_available_24"
+        />
+
+    <item android:id="@+id/department"
+        android:title="@string/department"
+        android:icon="@drawable/department">
+    </item>
+
+    <item
+        android:icon="@drawable/placement"
+        android:title="@string/placement"
+        android:id="@+id/placement"/>
+
+    <item
+        android:icon="@drawable/ic_baseline_feedback_24"
+        android:title="Feedback/Request"
+        android:id="@+id/feedfack_"
+        tools:ignore="HardcodedText" />
+    <item
+        android:icon="@drawable/ic_baseline_read_more_24"
+        android:title="@string/about"
+        android:id="@+id/about_"/>
+
+</menu>

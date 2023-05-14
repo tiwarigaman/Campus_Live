@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="YouTubePlayerView">
+        <attr name="showFullScreenButton" format="boolean" />
+        <!-- other attributes -->
+    </declare-styleable>
+</resources>
