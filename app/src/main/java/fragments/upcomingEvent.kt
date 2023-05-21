@@ -2,11 +2,10 @@ package fragments
 
 import android.annotation.SuppressLint
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.firebase.database.*
@@ -22,7 +21,6 @@ class upcomingEvent : Fragment() {
     private lateinit var heading2 : ArrayList<String>
     private lateinit var newArrayList : ArrayList<NewsDataClass>
     private lateinit var newArrayList2 : ArrayList<NewsDataClass2>
-    private var i : Int = 0
     private lateinit var recyclerView : RecyclerView
     private lateinit var recyclerView2 : RecyclerView
 
