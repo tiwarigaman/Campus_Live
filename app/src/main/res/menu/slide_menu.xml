@@ -9,6 +9,11 @@
         android:id="@+id/feed_"
         tools:ignore="HardcodedText" />
     <item
+        android:icon="@drawable/ic_baseline_feed_24"
+        android:title="Video Feed"
+        android:id="@+id/feed_video"
+        tools:ignore="HardcodedText" />
+    <item
         android:icon="@drawable/discover_icon"
         android:title="@string/discover"
         android:id="@+id/home_"/>
