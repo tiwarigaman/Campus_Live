@@ -93,8 +93,8 @@ class newsDetailsActivity : AppCompatActivity() {
                         .show()
                 }
                 R.id.feed_video -> {
-//                    replaceFragment(feed())
-                    Toast.makeText(this@newsDetailsActivity, "Feed is loading...", Toast.LENGTH_SHORT)
+//                    replaceFragment(VideoFeed())
+                    Toast.makeText(this@newsDetailsActivity, "Coming soon...", Toast.LENGTH_SHORT)
                         .show()
                 }
                 R.id.events_->{

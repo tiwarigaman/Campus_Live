@@ -62,4 +62,7 @@ dependencies {
     implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:chromecast-sender:0.28'
     // animation files
     implementation 'com.airbnb.android:lottie:3.4.0'
+
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+
 }

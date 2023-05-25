@@ -19,7 +19,7 @@
             android:background="#2b2b2b"
             android:orientation="vertical">
 
-            <ImageView
+            <com.github.chrisbanes.photoview.PhotoView
                 android:id="@+id/image_view"
                 android:layout_width="match_parent"
                 android:layout_height="250dp"

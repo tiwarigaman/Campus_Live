@@ -11,7 +11,9 @@
         android:layout_height="250dp"
         android:clickable="true"
         android:focusable="true"
-        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
         android:src="@mipmap/ic_launcher_round"
         tools:ignore="ContentDescription,ImageContrastCheck,ImageContrastCheck,ImageContrastCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
@@ -19,7 +21,6 @@
         android:id="@+id/text_recycler"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
         android:fontFamily="@font/light"
         android:textStyle="bold"
         android:layout_marginLeft="10dp"
