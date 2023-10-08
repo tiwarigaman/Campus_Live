@@ -1,6 +1,6 @@
 # Campus_Live
 
-<h2 align="left">Hi 👋! My name is Aman Tiwari and I'm a computer science student</h2>
+<h2 align="left">Hi 👋! My name is Aman and I'm a computer science student</h2>
 
 ###
 
